@@ -1,0 +1,779 @@
+fileFormatVersion: 2
+guid: edb4199ebefc0d04583f3b990d88310a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3272942754055558512
+    second: Sword Samurai Attack Sheet (1)_0
+  - first:
+      213: 5034958686516088374
+    second: Sword Samurai Attack Sheet (1)_1
+  - first:
+      213: 5050115667545363956
+    second: Sword Samurai Attack Sheet (1)_2
+  - first:
+      213: 8840254795876435901
+    second: Sword Samurai Attack Sheet (1)_3
+  - first:
+      213: -8750234182181117746
+    second: Sword Samurai Attack Sheet (1)_4
+  - first:
+      213: 8949497490884610881
+    second: Sword Samurai Attack Sheet (1)_5
+  - first:
+      213: -9059131104650888113
+    second: Sword Samurai Attack Sheet (1)_6
+  - first:
+      213: 3392465240506680186
+    second: Sword Samurai Attack Sheet (1)_7
+  - first:
+      213: -4402301210673624891
+    second: Sword Samurai Attack Sheet (1)_8
+  - first:
+      213: -7828441043315731586
+    second: Sword Samurai Attack Sheet (1)_9
+  - first:
+      213: 121137760614689414
+    second: Sword Samurai Attack Sheet (1)_10
+  - first:
+      213: -1284152418032079622
+    second: Sword Samurai Attack Sheet (1)_11
+  - first:
+      213: 6084560613083237596
+    second: Sword Samurai Attack Sheet (1)_12
+  - first:
+      213: 1542864261017514889
+    second: Sword Samurai Attack Sheet (1)_13
+  - first:
+      213: -7816976775882507420
+    second: Sword Samurai Attack Sheet (1)_14
+  - first:
+      213: 5937112991567905121
+    second: Sword Samurai Attack Sheet (1)_15
+  - first:
+      213: -3654190466007557170
+    second: Sword Samurai Attack Sheet (1)_16
+  - first:
+      213: -1923329668600306698
+    second: Sword Samurai Attack Sheet (1)_17
+  - first:
+      213: -7980621424882006565
+    second: Sword Samurai Attack Sheet (1)_18
+  - first:
+      213: -6421053685427897851
+    second: Sword Samurai Attack Sheet (1)_19
+  - first:
+      213: -21892333194494910
+    second: Sword Samurai Attack Sheet (1)_20
+  - first:
+      213: -1869516340911519424
+    second: Sword Samurai Attack Sheet (1)_21
+  - first:
+      213: 6481887459501822565
+    second: Sword Samurai Attack Sheet (1)_22
+  - first:
+      213: 4801336230287389350
+    second: Sword Samurai Attack Sheet (1)_23
+  - first:
+      213: -670934622323353631
+    second: Sword Samurai Attack Sheet (1)_24
+  - first:
+      213: 8735622258485955384
+    second: Sword Samurai Attack Sheet (1)_25
+  - first:
+      213: -5085026655801475092
+    second: Sword Samurai Attack Sheet (1)_26
+  - first:
+      213: 3280605202176622863
+    second: Sword Samurai Attack Sheet (1)_27
+  - first:
+      213: 5186982033073853649
+    second: Sword Samurai Attack Sheet (1)_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a645ee7eb2492d0800000000000000
+      internalID: -3272942754055558512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e0f80cf34cfd540800000000000000
+      internalID: 5034958686516088374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f51da6617d951640800000000000000
+      internalID: 5050115667545363956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7882036e4eeaa70800000000000000
+      internalID: 8840254795876435901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec02d9d3f5ce09680800000000000000
+      internalID: -8750234182181117746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b4d6e2d80033c70800000000000000
+      internalID: 8949497490884610881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c7795f140874280800000000000000
+      internalID: -9059131104650888113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73c2458925741f20800000000000000
+      internalID: 3392465240506680186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8c68f8f52e7e2c0800000000000000
+      internalID: -4402301210673624891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d314195acb5390800000000000000
+      internalID: -7828441043315731586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a2356c62e5ea100800000000000000
+      internalID: 121137760614689414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc2db5fd26cd2ee0800000000000000
+      internalID: -1284152418032079622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcc825e3a3b07450800000000000000
+      internalID: 6084560613083237596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9833896feda596510800000000000000
+      internalID: 1542864261017514889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b7b08d905848390800000000000000
+      internalID: -7816976775882507420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16103c54fccd46250800000000000000
+      internalID: 5937112991567905121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1004c125b94dc0800000000000000
+      internalID: -3654190466007557170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3eb1d4bd5fe45e0800000000000000
+      internalID: -1923329668600306698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd54903e8132f3190800000000000000
+      internalID: -7980621424882006565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a7b5c71b5d3e6a0800000000000000
+      internalID: -6421053685427897851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c33a8f90932bff0800000000000000
+      internalID: -21892333194494910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0494e260bc42e06e0800000000000000
+      internalID: -1869516340911519424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5625aa94d4a44f950800000000000000
+      internalID: 6481887459501822565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a23e75ecd5c1a240800000000000000
+      internalID: 4801336230287389350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Samurai Attack Sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7d7e8048c50b6f0800000000000000
+      internalID: -670934622323353631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8cffd0d4a3371e141a6cf5f0ed117374
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sword Samurai Attack Sheet (1)_0: -3272942754055558512
+      Sword Samurai Attack Sheet (1)_1: 5034958686516088374
+      Sword Samurai Attack Sheet (1)_10: 121137760614689414
+      Sword Samurai Attack Sheet (1)_11: -1284152418032079622
+      Sword Samurai Attack Sheet (1)_12: 6084560613083237596
+      Sword Samurai Attack Sheet (1)_13: 1542864261017514889
+      Sword Samurai Attack Sheet (1)_14: -7816976775882507420
+      Sword Samurai Attack Sheet (1)_15: 5937112991567905121
+      Sword Samurai Attack Sheet (1)_16: -3654190466007557170
+      Sword Samurai Attack Sheet (1)_17: -1923329668600306698
+      Sword Samurai Attack Sheet (1)_18: -7980621424882006565
+      Sword Samurai Attack Sheet (1)_19: -6421053685427897851
+      Sword Samurai Attack Sheet (1)_2: 5050115667545363956
+      Sword Samurai Attack Sheet (1)_20: -21892333194494910
+      Sword Samurai Attack Sheet (1)_21: -1869516340911519424
+      Sword Samurai Attack Sheet (1)_22: 6481887459501822565
+      Sword Samurai Attack Sheet (1)_23: 4801336230287389350
+      Sword Samurai Attack Sheet (1)_24: -670934622323353631
+      Sword Samurai Attack Sheet (1)_3: 8840254795876435901
+      Sword Samurai Attack Sheet (1)_4: -8750234182181117746
+      Sword Samurai Attack Sheet (1)_5: 8949497490884610881
+      Sword Samurai Attack Sheet (1)_6: -9059131104650888113
+      Sword Samurai Attack Sheet (1)_7: 3392465240506680186
+      Sword Samurai Attack Sheet (1)_8: -4402301210673624891
+      Sword Samurai Attack Sheet (1)_9: -7828441043315731586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
