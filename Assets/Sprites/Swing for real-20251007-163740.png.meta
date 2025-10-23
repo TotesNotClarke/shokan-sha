@@ -124,10 +124,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 303
-        width: 36
-        height: 34
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_1
       rect:
         serializedVersion: 2
-        x: 177
-        y: 295
-        width: 29
-        height: 50
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_2
       rect:
         serializedVersion: 2
-        x: 302
-        y: 296
-        width: 36
-        height: 48
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_3
       rect:
         serializedVersion: 2
-        x: 38
-        y: 164
-        width: 51
-        height: 57
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_4
       rect:
         serializedVersion: 2
-        x: 161
-        y: 161
-        width: 62
-        height: 63
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_5
       rect:
         serializedVersion: 2
-        x: 291
-        y: 164
-        width: 58
-        height: 56
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_6
       rect:
         serializedVersion: 2
-        x: 45
-        y: 46
-        width: 38
-        height: 36
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: Swing for real-20251007-163740_7
       rect:
         serializedVersion: 2
-        x: 174
-        y: 47
-        width: 36
-        height: 34
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 624fef492e675084b879bbc1a16c018e
     internalID: 0
     vertices: []
     indices: 
