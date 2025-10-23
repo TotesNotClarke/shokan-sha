@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: c80a301e0c869964ba71efeaf4e14514
+guid: 0f3d6bf60cfdd0148aed10ad3048b3dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3450056563764634865
-    second: Ninja Attack follow through_0
+      213: 5756529100481144106
+    second: Ninja Attack follow through 1_0
   - first:
-      213: 1787562962626921441
-    second: Ninja Attack follow through_1
+      213: -2470241390887227370
+    second: Ninja Attack follow through 1_1
   - first:
-      213: -5968444114218463549
-    second: Ninja Attack follow through_2
+      213: 650105489311985161
+    second: Ninja Attack follow through 1_2
   - first:
-      213: -2406678937209052764
-    second: Ninja Attack follow through_3
+      213: -297915324647542231
+    second: Ninja Attack follow through 1_3
   - first:
-      213: -4160323178261953728
-    second: Ninja Attack follow through_4
+      213: 851813073877623039
+    second: Ninja Attack follow through 1_4
   - first:
-      213: -3164440821336005634
-    second: Ninja Attack follow through_5
+      213: -1307096234537429772
+    second: Ninja Attack follow through 1_5
   - first:
-      213: 6927775815887771557
-    second: Ninja Attack follow through_6
+      213: 7521277645265290443
+    second: Ninja Attack follow through 1_6
   - first:
-      213: 2084777951481199886
-    second: Ninja Attack follow through_7
+      213: 4101896243260434744
+    second: Ninja Attack follow through 1_7
   - first:
-      213: -5303053388295542889
-    second: Ninja Attack follow through_8
+      213: 1476016474011536820
+    second: Ninja Attack follow through 1_8
   - first:
-      213: -7435206085852564620
-    second: Ninja Attack follow through_9
+      213: -3598442132795225302
+    second: Ninja Attack follow through 1_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ninja Attack follow through_0
+      name: Ninja Attack follow through 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 240
-        width: 80
-        height: 80
+        x: 34
+        y: 239
+        width: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f422326a2011ef20800000000000000
-      internalID: 3450056563764634865
+      spriteID: a25a06da7bc43ef40800000000000000
+      internalID: 5756529100481144106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_1
+      name: Ninja Attack follow through 1_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 240
-        width: 80
-        height: 80
+        x: 133
+        y: 239
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e3c5092b03bec810800000000000000
-      internalID: 1787562962626921441
+      spriteID: 61033bafa80f7bdd0800000000000000
+      internalID: -2470241390887227370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_2
+      name: Ninja Attack follow through 1_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 240
-        width: 80
-        height: 80
+        x: 215
+        y: 239
+        width: 25
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cecc3643b3db2da0800000000000000
-      internalID: -5968444114218463549
+      spriteID: 90ee8f48f73a50900800000000000000
+      internalID: 650105489311985161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_3
+      name: Ninja Attack follow through 1_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 80
-        height: 80
+        x: 54
+        y: 159
+        width: 25
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a16d3bf142c99ed0800000000000000
-      internalID: -2406678937209052764
+      spriteID: 922fc3537979ddbf0800000000000000
+      internalID: -297915324647542231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_4
+      name: Ninja Attack follow through 1_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
-        width: 80
-        height: 80
+        x: 126
+        y: 159
+        width: 31
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0434fd89c109346c0800000000000000
-      internalID: -4160323178261953728
+      spriteID: ff062834a7f32db00800000000000000
+      internalID: 851813073877623039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_5
+      name: Ninja Attack follow through 1_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
-        width: 80
-        height: 80
+        x: 185
+        y: 159
+        width: 47
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef3a583c6d5a514d0800000000000000
-      internalID: -3164440821336005634
+      spriteID: 4f4552566e24cdde0800000000000000
+      internalID: -1307096234537429772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_6
+      name: Ninja Attack follow through 1_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
-        width: 80
-        height: 80
+        x: 21
+        y: 79
+        width: 44
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a7588d4667642060800000000000000
-      internalID: 6927775815887771557
+      spriteID: bc4cf1f3b22f06860800000000000000
+      internalID: 7521277645265290443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_7
+      name: Ninja Attack follow through 1_7
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 80
-        height: 80
+        x: 101
+        y: 79
+        width: 44
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0d7a91508e9eec10800000000000000
-      internalID: 2084777951481199886
+      spriteID: 8392c0586ecdce830800000000000000
+      internalID: 4101896243260434744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_8
+      name: Ninja Attack follow through 1_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 80
-        width: 80
-        height: 80
+        x: 180
+        y: 79
+        width: 45
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79766b54a05c766b0800000000000000
-      internalID: -5303053388295542889
+      spriteID: 4bd0510b92ddb7410800000000000000
+      internalID: 1476016474011536820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Attack follow through_9
+      name: Ninja Attack follow through 1_9
       rect:
         serializedVersion: 2
-        x: 0
+        x: 25
         y: 0
-        width: 80
-        height: 80
+        width: 40
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4737fe45577d0d890800000000000000
-      internalID: -7435206085852564620
+      spriteID: a2b01f112f3cf0ec0800000000000000
+      internalID: -3598442132795225302
       vertices: []
       indices: 
       edges: []
@@ -350,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cf98e196b545cae45b4f48ead318cbb0
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -360,16 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ninja Attack follow through_0: 3450056563764634865
-      Ninja Attack follow through_1: 1787562962626921441
-      Ninja Attack follow through_2: -5968444114218463549
-      Ninja Attack follow through_3: -2406678937209052764
-      Ninja Attack follow through_4: -4160323178261953728
-      Ninja Attack follow through_5: -3164440821336005634
-      Ninja Attack follow through_6: 6927775815887771557
-      Ninja Attack follow through_7: 2084777951481199886
-      Ninja Attack follow through_8: -5303053388295542889
-      Ninja Attack follow through_9: -7435206085852564620
+      Ninja Attack follow through 1_0: 5756529100481144106
+      Ninja Attack follow through 1_1: -2470241390887227370
+      Ninja Attack follow through 1_2: 650105489311985161
+      Ninja Attack follow through 1_3: -297915324647542231
+      Ninja Attack follow through 1_4: 851813073877623039
+      Ninja Attack follow through 1_5: -1307096234537429772
+      Ninja Attack follow through 1_6: 7521277645265290443
+      Ninja Attack follow through 1_7: 4101896243260434744
+      Ninja Attack follow through 1_8: 1476016474011536820
+      Ninja Attack follow through 1_9: -3598442132795225302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
