@@ -69,7 +69,7 @@ public class SideScrollPlayer : MonoBehaviour
         if (shouldDash == true)
         {
             shouldDash = false;
-
+            animator.SetTrigger("Dash");
             float direction = spriteRenderer.flipX ? -1f : 1f;
             rb.linearVelocity = new Vector2(direction * dashForce, rb.linearVelocity.y);
         }
