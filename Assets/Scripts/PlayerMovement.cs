@@ -1,122 +1,88 @@
-using System.Collections;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class SideScrollPlayer : MonoBehaviour
 {
-    [Header("Movement")]
-    public float moveSpeed = 8f;
-    public float jumpForce = 16f;
+    public float moveSpeed = 10.0f;
+    public float jumpForce = 500.0f;
 
-    private float horizontal;
-    private bool isFacingRight = true;
+    Rigidbody2D rb;
 
-    [Header("Dash")]
-    public float dashPower = 24f;
-    public float dashDuration = 0.2f;
-    public float dashCooldown = 1f;
-    private bool canDash = true;
-    private bool isDashing;
+    public bool isGrounded = false;
+    public bool shouldJump = false;
 
-    [Header("Ground Check")]
-    public Transform groundCheck;
-    public LayerMask groundLayer;
+    Animator animator;
+    SpriteRenderer spriteRenderer;
 
-    private Rigidbody2D rb;
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    public TrailRenderer tr;
+    // ? Dash (only needed variables)
+    public bool shouldDash = false;
+    public float dashForce = 20f;
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    void Update()
     {
-        if (isDashing)
-            return;
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
 
-        horizontal = Input.GetAxisRaw("Horizontal");
-
-        // Animation + flipping
-        if (horizontal != 0)
+        if (horizontalInput > 0)
         {
             animator.SetBool("isRunning", true);
-            spriteRenderer.flipX = horizontal < 0;
+            spriteRenderer.flipX = false;
+        }
+        else if (horizontalInput < 0)
+        {
+            animator.SetBool("isRunning", true);
+            spriteRenderer.flipX = true;
         }
         else
         {
             animator.SetBool("isRunning", false);
         }
 
-        // Jump
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            shouldJump = true;
+        }
+
+        // ? Dash input
+        if (Input.GetKeyDown(KeyCode.LeftShift) )
+        {
+            shouldDash = true;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (shouldJump == true)
+        {
+            shouldJump = false;
+            rb.AddForce(Vector2.up * jumpForce);
             animator.SetBool("isJumping", true);
         }
 
-        // Short Hop
-        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
+        // ? Perform Dash
+        if (shouldDash == true)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-        }
+            shouldDash = false;
 
-        // Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            StartCoroutine(Dash());
+            float direction = spriteRenderer.flipX ? -1f : 1f;
+            rb.linearVelocity = new Vector2(direction * dashForce, rb.linearVelocity.y);
         }
     }
 
-    private void FixedUpdate()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (isDashing)
-            return;
-
-        rb.linearVelocity = new Vector2(horizontal * moveSpeed, rb.linearVelocity.y);
+        isGrounded = true;
+        animator.SetBool("isJumping", false);
     }
 
-    private bool IsGrounded()
+    void OnTriggerExit2D(Collider2D other)
     {
-        bool grounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-
-        if (grounded)
-        {
-            animator.SetBool("isJumping", false);
-        }
-
-        return grounded;
-    }
-
-    private IEnumerator Dash()
-    {
-        canDash = false;
-        isDashing = true;
-
-        float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f;
-
-        rb.linearVelocity = new Vector2((spriteRenderer.flipX ? -1 : 1) * dashPower, 0f);
-
-        tr.emitting = true;
-        animator.SetTrigger("dash");
-
-        yield return new WaitForSeconds(dashDuration);
-
-        tr.emitting = false;
-        rb.gravityScale = originalGravity;
-        isDashing = false;
-
-        yield return new WaitForSeconds(dashCooldown);
-        canDash = true;
-    }
-
-    private void OnDrawGizmosSelected() // Visual ground-check guide
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(groundCheck.position, 0.2f);
+        isGrounded = false;
     }
 }
