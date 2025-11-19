@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: eadff38c784672144b639ad377a9578a
+guid: 82271565452316949b434128258da0a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -98634441097376502
-    second: Jump (1)_0
+      213: -6866539020066807935
+    second: Swordguy Hurt_0
   - first:
-      213: -8566813157544426095
-    second: Jump (1)_1
+      213: -2504266310327928520
+    second: Swordguy Hurt_1
   - first:
-      213: -6933543353270212472
-    second: Jump (1)_2
+      213: 4212201870357032273
+    second: Swordguy Hurt_2
   - first:
-      213: -8604051439405153755
-    second: Jump (1)_3
-  - first:
-      213: 5822823532550369163
-    second: Jump (1)_4
-  - first:
-      213: -1512303611639613575
-    second: Jump (1)_5
+      213: -1377076305869421977
+    second: Swordguy Hurt_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,137 +105,128 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump (1)_0
+      name: Swordguy Hurt_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+        y: 740
+        width: 320
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0d85c79f7491aef0800000000000000
-      internalID: -98634441097376502
+      spriteID: 18f1f88442725b0a0800000000000000
+      internalID: -6866539020066807935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (1)_1
+      name: Swordguy Hurt_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 320
+        y: 740
+        width: 320
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1950c6772d09c1980800000000000000
-      internalID: -8566813157544426095
+      spriteID: 839fce51f0f0f3dd0800000000000000
+      internalID: -2504266310327928520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (1)_2
+      name: Swordguy Hurt_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 370
+        width: 320
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 888ee814e0b17cf90800000000000000
-      internalID: -6933543353270212472
+      spriteID: 15deddca84fb47a30800000000000000
+      internalID: 4212201870357032273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (1)_3
+      name: Swordguy Hurt_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5625}
+        x: 320
+        y: 370
+        width: 320
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52241155dc4489880800000000000000
-      internalID: -8604051439405153755
+      spriteID: 762cb085564a3ece0800000000000000
+      internalID: -1377076305869421977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (1)_4
+      name: Swordguy Hurt_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5625}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8f2377f623dec050800000000000000
-      internalID: 5822823532550369163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump (1)_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        width: 320
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9773ea3b0e7330be0800000000000000
-      internalID: -1512303611639613575
+      spriteID: 2f06573626599694dbb4b6fd1dcfc1a4
+      internalID: 1333372813
       vertices: []
       indices: 
       edges: []
@@ -250,7 +235,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f7eca525882b8014094df82b26b77602
+    spriteID: 42e6cbb4dd252134491bd435a17c5918
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +245,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jump (1)_0: -98634441097376502
-      Jump (1)_1: -8566813157544426095
-      Jump (1)_2: -6933543353270212472
-      Jump (1)_3: -8604051439405153755
-      Jump (1)_4: 5822823532550369163
-      Jump (1)_5: -1512303611639613575
+      Swordguy Hurt_0: -6866539020066807935
+      Swordguy Hurt_1: -2504266310327928520
+      Swordguy Hurt_2: 4212201870357032273
+      Swordguy Hurt_3: -1377076305869421977
+      Swordguy Hurt_4: 1333372813
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
