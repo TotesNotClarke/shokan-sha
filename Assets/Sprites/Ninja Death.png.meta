@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: f35acc0d68290db429bd9e0eae4f38d6
+guid: a0b4b3e209fbf934dac6245dc8c55081
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5576685416563272651
-    second: Health Bar_0
+      213: -8482277688664616251
+    second: Ninja Death_0
   - first:
-      213: -1537237254561365428
-    second: Health Bar_1
+      213: -1760367184776014047
+    second: Ninja Death_1
   - first:
-      213: -7017093840127808277
-    second: Health Bar_2
+      213: -412207465593809981
+    second: Ninja Death_2
   - first:
-      213: -3819348300702885813
-    second: Health Bar_3
+      213: 8180114189058020258
+    second: Ninja Death_3
   - first:
-      213: -5988993702929427423
-    second: Health Bar_4
+      213: -126392508198451344
+    second: Ninja Death_4
   - first:
-      213: 2075005499878114270
-    second: Health Bar_5
-  - first:
-      213: 8575762757270934469
-    second: Health Bar_6
-  - first:
-      213: 3363283352416523597
-    second: Health Bar_7
-  - first:
-      213: -8167494308685793141
-    second: Health Bar_8
+      213: 2682785274507997376
+    second: Ninja Death_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,199 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Health Bar_0
+      name: Ninja Death_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1008
-        width: 222
-        height: 63
+        x: 19
+        y: 1429
+        width: 382
+        height: 362
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53415a10922ab92b0800000000000000
-      internalID: -5576685416563272651
+      spriteID: 5c29ce81265e84a80800000000000000
+      internalID: -8482277688664616251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health Bar_1
+      name: Ninja Death_1
       rect:
         serializedVersion: 2
-        x: 419
-        y: 1009
-        width: 412
-        height: 62
+        x: 659
+        y: 1429
+        width: 382
+        height: 352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c428f529cd2aaaae0800000000000000
-      internalID: -1537237254561365428
+      spriteID: 127db2d4f5be197e0800000000000000
+      internalID: -1760367184776014047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health Bar_2
+      name: Ninja Death_2
       rect:
         serializedVersion: 2
-        x: 839
-        y: 1009
-        width: 412
-        height: 62
+        x: 109
+        y: 789
+        width: 292
+        height: 252
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beca99f94564e9e90800000000000000
-      internalID: -7017093840127808277
+      spriteID: 3c354877e7b874af0800000000000000
+      internalID: -412207465593809981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health Bar_3
+      name: Ninja Death_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 589
-        width: 411
-        height: 62
+        x: 869
+        y: 789
+        width: 172
+        height: 162
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b48dc1fc4f2fefac0800000000000000
-      internalID: -3819348300702885813
+      spriteID: 2a39fecc38a958170800000000000000
+      internalID: 8180114189058020258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health Bar_4
+      name: Ninja Death_4
       rect:
         serializedVersion: 2
-        x: 419
-        y: 589
-        width: 412
+        x: 229
+        y: 149
+        width: 62
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12417de45f1d2eca0800000000000000
-      internalID: -5988993702929427423
+      spriteID: 0778f86fea6fe3ef0800000000000000
+      internalID: -126392508198451344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health Bar_5
+      name: Ninja Death_5
       rect:
         serializedVersion: 2
-        x: 839
-        y: 589
-        width: 412
-        height: 62
+        x: 339
+        y: 149
+        width: 62
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed3873f1286ebcc10800000000000000
-      internalID: 2075005499878114270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Health Bar_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 169
-        width: 411
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c398299aca330770800000000000000
-      internalID: 8575762757270934469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Health Bar_7
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 169
-        width: 412
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4595cbb368ccae20800000000000000
-      internalID: 3363283352416523597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Health Bar_8
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 169
-        width: 412
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8832c1133b37ae80800000000000000
-      internalID: -8167494308685793141
+      spriteID: 0c0b2bf3efa2b3520800000000000000
+      internalID: 2682785274507997376
       vertices: []
       indices: 
       edges: []
@@ -338,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: dd44238bec0e3b64eb3badfd8b1f2dc0
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -348,15 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Health Bar_0: -5576685416563272651
-      Health Bar_1: -1537237254561365428
-      Health Bar_2: -7017093840127808277
-      Health Bar_3: -3819348300702885813
-      Health Bar_4: -5988993702929427423
-      Health Bar_5: 2075005499878114270
-      Health Bar_6: 8575762757270934469
-      Health Bar_7: 3363283352416523597
-      Health Bar_8: -8167494308685793141
+      Ninja Death_0: -8482277688664616251
+      Ninja Death_1: -1760367184776014047
+      Ninja Death_2: -412207465593809981
+      Ninja Death_3: 8180114189058020258
+      Ninja Death_4: -126392508198451344
+      Ninja Death_5: 2682785274507997376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

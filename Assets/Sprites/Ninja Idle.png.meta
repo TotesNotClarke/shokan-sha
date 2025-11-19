@@ -1,49 +1,55 @@
 fileFormatVersion: 2
-guid: 26407ca8d53b0204a83eb801373cb107
+guid: e003ebd3997fbda48a308cd2411ee151
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4369198872238653223
-    second: Swordguy Combat (StrikesandParry)_0
+      213: -8811733972543401060
+    second: Ninja Idle_0
   - first:
-      213: 4739260164862112941
-    second: Swordguy Combat (StrikesandParry)_1
+      213: -1872554430368337346
+    second: Ninja Idle_1
   - first:
-      213: 5456621620575092513
-    second: Swordguy Combat (StrikesandParry)_2
+      213: 971579258398320551
+    second: Ninja Idle_2
   - first:
-      213: 5887578154133104109
-    second: Swordguy Combat (StrikesandParry)_3
+      213: -7187646483105212325
+    second: Ninja Idle_3
   - first:
-      213: -7412516727426723734
-    second: Swordguy Combat (StrikesandParry)_4
+      213: 153592663832825844
+    second: Ninja Idle_4
   - first:
-      213: -1533365781412023937
-    second: Swordguy Combat (StrikesandParry)_5
+      213: 91128781925816670
+    second: Ninja Idle_5
   - first:
-      213: 2285193766416096868
-    second: Swordguy Combat (StrikesandParry)_6
+      213: -8011413566716948821
+    second: Ninja Idle_6
   - first:
-      213: 7699583623158115113
-    second: Swordguy Combat (StrikesandParry)_7
+      213: 7856428164287641864
+    second: Ninja Idle_7
   - first:
-      213: 4335684204145694270
-    second: Swordguy Combat (StrikesandParry)_8
+      213: -4033801937556717925
+    second: Ninja Idle_8
   - first:
-      213: -3531770877320771748
-    second: Swordguy Combat (StrikesandParry)_9
+      213: 4938338456163206151
+    second: Ninja Idle_9
   - first:
-      213: -1716736344700936440
-    second: Swordguy Combat (StrikesandParry)_10
+      213: -1944677168072318315
+    second: Ninja Idle_10
   - first:
-      213: -6726572660989580891
-    second: Swordguy Combat (StrikesandParry)_11
+      213: 7211731060153019363
+    second: Ninja Idle_11
   - first:
-      213: 2655848677787281588
-    second: Swordguy Combat (StrikesandParry)_12
+      213: -3752962606892143172
+    second: Ninja Idle_12
   - first:
-      213: 8047775595247306698
-    second: Swordguy Combat (StrikesandParry)_13
+      213: 7924807794224171154
+    second: Ninja Idle_13
+  - first:
+      213: -4021866059834698948
+    second: Ninja Idle_14
+  - first:
+      213: 5112214232679943777
+    second: Ninja Idle_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 160
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_0
+      name: Ninja Idle_0
       rect:
         serializedVersion: 2
-        x: 159
-        y: 2069
-        width: 232
-        height: 372
+        x: 20
+        y: 206
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d08d2356cc7d53c0800000000000000
-      internalID: -4369198872238653223
+      spriteID: c931f4773ae66b580800000000000000
+      internalID: -8811733972543401060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_1
+      name: Ninja Idle_1
       rect:
         serializedVersion: 2
-        x: 789
-        y: 2069
-        width: 232
-        height: 372
+        x: 84
+        y: 206
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da4f3c0a20c35c140800000000000000
-      internalID: 4739260164862112941
+      spriteID: e32bf43baa95306e0800000000000000
+      internalID: -1872554430368337346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_2
+      name: Ninja Idle_2
       rect:
         serializedVersion: 2
-        x: 1479
-        y: 2069
-        width: 262
-        height: 372
+        x: 148
+        y: 206
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12f38181470d9bb40800000000000000
-      internalID: 5456621620575092513
+      spriteID: 7a728f7103ebb7d00800000000000000
+      internalID: 971579258398320551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_3
+      name: Ninja Idle_3
       rect:
         serializedVersion: 2
-        x: 1929
-        y: 2069
-        width: 412
-        height: 372
+        x: 212
+        y: 206
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de524703321e4b150800000000000000
-      internalID: 5887578154133104109
+      spriteID: b589d6bfa99504c90800000000000000
+      internalID: -7187646483105212325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_4
+      name: Ninja Idle_4
       rect:
         serializedVersion: 2
-        x: 39
-        y: 1429
-        width: 342
-        height: 372
+        x: 20
+        y: 142
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a60d6124f43712990800000000000000
-      internalID: -7412516727426723734
+      spriteID: 4ff8cd7c6bba12200800000000000000
+      internalID: 153592663832825844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_5
+      name: Ninja Idle_5
       rect:
         serializedVersion: 2
-        x: 819
-        y: 1429
-        width: 242
-        height: 372
+        x: 84
+        y: 142
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f71723822f368bae0800000000000000
-      internalID: -1533365781412023937
+      spriteID: e599083f421c34100800000000000000
+      internalID: 91128781925816670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_6
+      name: Ninja Idle_6
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 1429
-        width: 262
-        height: 382
+        x: 148
+        y: 142
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46e1b228f93a6bf10800000000000000
-      internalID: 2285193766416096868
+      spriteID: bae471faecdb1d090800000000000000
+      internalID: -8011413566716948821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_7
+      name: Ninja Idle_7
       rect:
         serializedVersion: 2
-        x: 2089
-        y: 1429
-        width: 172
-        height: 382
+        x: 212
+        y: 142
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92b21c8d28a6ada60800000000000000
-      internalID: 7699583623158115113
+      spriteID: 8093dbf4ac3a70d60800000000000000
+      internalID: 7856428164287641864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_8
+      name: Ninja Idle_8
       rect:
         serializedVersion: 2
-        x: 209
-        y: 789
-        width: 272
-        height: 372
+        x: 19
+        y: 78
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e36506eefc17b2c30800000000000000
-      internalID: 4335684204145694270
+      spriteID: b9e36a1828e0508c0800000000000000
+      internalID: -4033801937556717925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_9
+      name: Ninja Idle_9
       rect:
         serializedVersion: 2
-        x: 839
-        y: 789
-        width: 282
-        height: 372
+        x: 83
+        y: 78
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c57c9356911acfec0800000000000000
-      internalID: -3531770877320771748
+      spriteID: 704424459a0888440800000000000000
+      internalID: 4938338456163206151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_10
+      name: Ninja Idle_10
       rect:
         serializedVersion: 2
-        x: 1469
-        y: 789
-        width: 282
-        height: 372
+        x: 147
+        y: 78
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80f1911e36dec28e0800000000000000
-      internalID: -1716736344700936440
+      spriteID: 592ac324b6e1305e0800000000000000
+      internalID: -1944677168072318315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_11
+      name: Ninja Idle_11
       rect:
         serializedVersion: 2
-        x: 2049
-        y: 789
-        width: 232
-        height: 372
+        x: 211
+        y: 78
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a9acd1cdc966a2a0800000000000000
-      internalID: -6726572660989580891
+      spriteID: 3eb62189037351460800000000000000
+      internalID: 7211731060153019363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_12
+      name: Ninja Idle_12
       rect:
         serializedVersion: 2
-        x: 159
-        y: 149
-        width: 232
-        height: 372
+        x: 19
+        y: 14
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b8a3b81d487bd420800000000000000
-      internalID: 2655848677787281588
+      spriteID: cbdaed0a46ccaebc0800000000000000
+      internalID: -3752962606892143172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Swordguy Combat (StrikesandParry)_13
+      name: Ninja Idle_13
       rect:
         serializedVersion: 2
-        x: 829
-        y: 149
-        width: 282
-        height: 372
+        x: 83
+        y: 14
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,8 +459,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac706c2d3417faf60800000000000000
-      internalID: 8047775595247306698
+      spriteID: 2988aff83b29afd60800000000000000
+      internalID: 7924807794224171154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 14
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c335a5990267f28c0800000000000000
+      internalID: -4021866059834698948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 14
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e859a42cb32f640800000000000000
+      internalID: 5112214232679943777
       vertices: []
       indices: 
       edges: []
@@ -473,20 +523,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Swordguy Combat (StrikesandParry)_0: -4369198872238653223
-      Swordguy Combat (StrikesandParry)_1: 4739260164862112941
-      Swordguy Combat (StrikesandParry)_10: -1716736344700936440
-      Swordguy Combat (StrikesandParry)_11: -6726572660989580891
-      Swordguy Combat (StrikesandParry)_12: 2655848677787281588
-      Swordguy Combat (StrikesandParry)_13: 8047775595247306698
-      Swordguy Combat (StrikesandParry)_2: 5456621620575092513
-      Swordguy Combat (StrikesandParry)_3: 5887578154133104109
-      Swordguy Combat (StrikesandParry)_4: -7412516727426723734
-      Swordguy Combat (StrikesandParry)_5: -1533365781412023937
-      Swordguy Combat (StrikesandParry)_6: 2285193766416096868
-      Swordguy Combat (StrikesandParry)_7: 7699583623158115113
-      Swordguy Combat (StrikesandParry)_8: 4335684204145694270
-      Swordguy Combat (StrikesandParry)_9: -3531770877320771748
+      Ninja Idle_0: -8811733972543401060
+      Ninja Idle_1: -1872554430368337346
+      Ninja Idle_10: -1944677168072318315
+      Ninja Idle_11: 7211731060153019363
+      Ninja Idle_12: -3752962606892143172
+      Ninja Idle_13: 7924807794224171154
+      Ninja Idle_14: -4021866059834698948
+      Ninja Idle_15: 5112214232679943777
+      Ninja Idle_2: 971579258398320551
+      Ninja Idle_3: -7187646483105212325
+      Ninja Idle_4: 153592663832825844
+      Ninja Idle_5: 91128781925816670
+      Ninja Idle_6: -8011413566716948821
+      Ninja Idle_7: 7856428164287641864
+      Ninja Idle_8: -4033801937556717925
+      Ninja Idle_9: 4938338456163206151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
