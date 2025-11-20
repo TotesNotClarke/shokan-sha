@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 46b81e1f4f97fb2478044ba8fcf72d8c
+guid: 602612e53974eef4d9bb6778e3080f99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6096940389844569679
-    second: Ninja Stance_0
+      213: 6797872605366719147
+    second: Ninja Walk_0
   - first:
-      213: 1388177648084685263
-    second: Ninja Stance_1
+      213: 819443118107531618
+    second: Ninja Walk_1
   - first:
-      213: 3036344011635333603
-    second: Ninja Stance_2
+      213: -3119914375150742820
+    second: Ninja Walk_2
   - first:
-      213: 6946540040511523385
-    second: Ninja Stance_3
+      213: 7697424471323262582
+    second: Ninja Walk_3
+  - first:
+      213: -6717601621893859389
+    second: Ninja Walk_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,89 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ninja Stance_0
+      name: Ninja Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 1280
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4eca694bfeac9450800000000000000
-      internalID: 6096940389844569679
+      spriteID: 0ac9735f1ba2be741a61747774c4e5b4
+      internalID: 6797872605366719147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Stance_1
+      name: Ninja Walk_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 640
+        y: 1280
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc1993f473cc34310800000000000000
-      internalID: 1388177648084685263
+      spriteID: 542af83de7a840840ad29084a9157442
+      internalID: 819443118107531618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ninja Stance_2
+      name: Ninja Walk_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a7f1d9528d36c499db5d899daf2b52
+      internalID: -3119914375150742820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Walk_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78955845ff056164d81543f196086971
+      internalID: 7697424471323262582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Walk_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e998659ac2432a20800000000000000
-      internalID: 3036344011635333603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ninja Stance_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93a87bccc51176060800000000000000
-      internalID: 6946540040511523385
+      spriteID: 0857d1d90ea0249498098825eaabb513
+      internalID: -6717601621893859389
       vertices: []
       indices: 
       edges: []
@@ -213,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7ae8afedfea7bbe429e25d2c6d5906a4
+    spriteID: 32e4774868407524292e54d1a1d2ba22
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ninja Stance_0: 6096940389844569679
-      Ninja Stance_1: 1388177648084685263
-      Ninja Stance_2: 3036344011635333603
-      Ninja Stance_3: 6946540040511523385
+      Ninja Walk_0: 6797872605366719147
+      Ninja Walk_1: 819443118107531618
+      Ninja Walk_2: -3119914375150742820
+      Ninja Walk_3: 7697424471323262582
+      Ninja Walk_4: -6717601621893859389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

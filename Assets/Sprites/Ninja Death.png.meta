@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,10 +131,10 @@ TextureImporter:
       name: Ninja Death_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1429
-        width: 382
-        height: 362
+        x: 0
+        y: 1280
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Ninja Death_1
       rect:
         serializedVersion: 2
-        x: 659
-        y: 1429
-        width: 382
-        height: 352
+        x: 640
+        y: 1280
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Ninja Death_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 789
-        width: 292
-        height: 252
+        x: 0
+        y: 640
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Ninja Death_3
       rect:
         serializedVersion: 2
-        x: 869
-        y: 789
-        width: 172
-        height: 162
+        x: 640
+        y: 640
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: Ninja Death_4
       rect:
         serializedVersion: 2
-        x: 229
-        y: 149
-        width: 62
-        height: 62
+        x: 0
+        y: 0
+        width: 640
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,33 +237,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Ninja Death_5
-      rect:
-        serializedVersion: 2
-        x: 339
-        y: 149
-        width: 62
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c0b2bf3efa2b3520800000000000000
-      internalID: 2682785274507997376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3744d59b8e7a80e4bbd43326e9dd9ac9
     internalID: 0
     vertices: []
     indices: 
@@ -278,7 +256,6 @@ TextureImporter:
       Ninja Death_2: -412207465593809981
       Ninja Death_3: 8180114189058020258
       Ninja Death_4: -126392508198451344
-      Ninja Death_5: 2682785274507997376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

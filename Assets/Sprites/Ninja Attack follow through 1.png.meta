@@ -143,12 +143,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 239
-        width: 40
-        height: 38
+        x: 0
+        y: 240
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.49005747, y: 0.16508202}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_1
       rect:
         serializedVersion: 2
-        x: 133
-        y: 239
-        width: 21
-        height: 64
+        x: 80
+        y: 240
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.47111875, y: 0.078082085}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_2
       rect:
         serializedVersion: 2
-        x: 215
-        y: 239
-        width: 25
-        height: 64
+        x: 160
+        y: 240
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.45823973, y: 0.078082085}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_3
       rect:
         serializedVersion: 2
-        x: 54
-        y: 159
-        width: 25
-        height: 64
+        x: 0
+        y: 160
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.49005708, y: 0.078081846}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_4
       rect:
         serializedVersion: 2
-        x: 126
-        y: 159
-        width: 31
-        height: 62
+        x: 80
+        y: 160
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.5028869, y: 0.06886046}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_5
       rect:
         serializedVersion: 2
-        x: 185
-        y: 159
-        width: 47
-        height: 56
+        x: 160
+        y: 160
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.61698717, y: 0.09518405}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_6
       rect:
         serializedVersion: 2
-        x: 21
-        y: 79
-        width: 44
-        height: 36
+        x: 0
+        y: 80
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.7250698, y: 0.165082}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_7
       rect:
         serializedVersion: 2
-        x: 101
-        y: 79
-        width: 44
-        height: 36
+        x: 80
+        y: 80
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.7431471, y: 0.165082}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_8
       rect:
         serializedVersion: 2
-        x: 180
-        y: 79
-        width: 45
-        height: 38
+        x: 160
+        y: 80
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.7198466, y: 0.165082}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: Ninja Attack follow through 1_9
       rect:
         serializedVersion: 2
-        x: 25
+        x: 0
         y: 0
-        width: 40
-        height: 37
+        width: 80
+        height: 80
       alignment: 9
-      pivot: {x: 0.69885653, y: 0.165082}
+      pivot: {x: 0.857942, y: 0.2464573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
