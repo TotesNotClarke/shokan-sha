@@ -19,13 +19,13 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            anim.SetTrigger("SGHurt");
+            anim.SetTrigger("hurt");
         }
         else
         {
             if (!dead)
             {
-                anim.SetTrigger("SGDeath");
+                anim.SetTrigger("die");
                 GetComponent<SideScrollPlayer>().enabled = false;
                 dead = true;
             }
