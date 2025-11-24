@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,7 +8,9 @@ public class PlayerController : MonoBehaviour
     public Animator myAnim;
     public bool isAttacking = false;
     public static PlayerController instance;
-
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
     private void Awake()
     {
         instance = this;
@@ -31,4 +34,15 @@ public class PlayerController : MonoBehaviour
             isAttacking = true;
         }
     }
-}
+
+
+
+
+      private void OnTriggerEnter2D(Collider2D enemy)
+        {
+            if(isAttacking == true)
+            enemy.GetComponent<Health>().TakeDamage(1);
+        }
+
+    }
+
