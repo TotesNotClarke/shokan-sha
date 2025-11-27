@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public Animator myAnim;
     public bool isAttacking = false;
+    public bool isParrying = false;
     public static PlayerController instance;
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Attack();
+        Parry();
     }
 
     void Attack()
@@ -43,6 +45,17 @@ public class PlayerController : MonoBehaviour
             if(isAttacking == true)
             enemy.GetComponent<Health>().TakeDamage(1);
         }
+
+    void Parry()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse1) && !isParrying)
+        {
+            isParrying = true;
+            myAnim.SetTrigger("doParry");
+        }
+
+    }
+
 
     }
 
