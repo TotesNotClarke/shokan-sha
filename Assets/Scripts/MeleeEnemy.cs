@@ -1,8 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MeleeEnemy : MonoBehaviour
 {
-    [Header ("Attack Parameters")]
+    [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
     [SerializeField] private int damage;
@@ -11,10 +11,10 @@ public class MeleeEnemy : MonoBehaviour
     [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
 
-    [Header("Player Layer")] 
+    [Header("Player Layer")]
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
-   
+
     //references
     private Animator anim;
     private Health playerHealth;
@@ -48,8 +48,8 @@ public class MeleeEnemy : MonoBehaviour
 
     private bool PlayerInSight()
     {
-        RaycastHit2D hit = 
-            Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance, 
+        RaycastHit2D hit =
+            Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
              0, Vector2.left, 0, playerLayer);
 
@@ -68,10 +68,21 @@ public class MeleeEnemy : MonoBehaviour
 
     private void DamagePlayer()
     {
-        //if player still in range damage
-        if (PlayerInSight())
-            playerHealth.TakeDamage(damage);
+        if (!PlayerInSight()) return;
 
+        // Get player controller reference
+        PlayerController player = playerHealth.GetComponent<PlayerController>();
+
+        // If player is parrying, enemy attack is negated
+        if (player != null && player.IsParrying())
+        {
+   
+
+            return; // Do NOT damage the player
+        }
+
+        // If player wasn't parrying → deal damage
+        playerHealth.TakeDamage(damage);
     }
-}
 
+}
