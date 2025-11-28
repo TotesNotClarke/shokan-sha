@@ -50,7 +50,6 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse1) && !isParrying)
         {
-            isParrying = true;
             myAnim.SetTrigger("doParry");
         }
 
