@@ -9,9 +9,20 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController instance;
 
+    public GameObject parrySparksPrefab;
+    public Transform parryEffectPoint;
+
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
+
+    public void SpawnParrySparks()
+    {
+        if (parrySparksPrefab != null && parryEffectPoint != null)
+        {
+            Instantiate(parrySparksPrefab, parryEffectPoint.position, Quaternion.identity);
+        }
+    }
 
     private void Awake()
     {
@@ -91,4 +102,6 @@ public class PlayerController : MonoBehaviour
     {
         return isParrying;
     }
+
+
 }

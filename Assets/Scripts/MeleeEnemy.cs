@@ -76,7 +76,7 @@ public class MeleeEnemy : MonoBehaviour
         // If player is parrying, enemy attack is negated
         if (player != null && player.IsParrying())
         {
-   
+            player.SpawnParrySparks();
 
             return; // Do NOT damage the player
         }

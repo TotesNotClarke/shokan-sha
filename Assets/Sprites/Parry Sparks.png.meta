@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 5bbd251198a5057459c414d55e51fe77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3686937540983817227
+    second: Parry Sparks_0
+  - first:
+      213: 9191989761020519815
+    second: Parry Sparks_1
+  - first:
+      213: 7481970360495912486
+    second: Parry Sparks_2
+  - first:
+      213: 4903912881789310495
+    second: Parry Sparks_3
+  - first:
+      213: -1687085003590051520
+    second: Parry Sparks_4
+  - first:
+      213: 3250547392674293667
+    second: Parry Sparks_5
+  - first:
+      213: -1230913829855927731
+    second: Parry Sparks_6
+  - first:
+      213: 7095508326139013525
+    second: Parry Sparks_7
+  - first:
+      213: 724007621995901708
+    second: Parry Sparks_8
+  - first:
+      213: -5415395427552478459
+    second: Parry Sparks_9
+  - first:
+      213: -3742686363547225050
+    second: Parry Sparks_10
+  - first:
+      213: -935206042870998504
+    second: Parry Sparks_11
+  - first:
+      213: 7239074569348844977
+    second: Parry Sparks_12
+  - first:
+      213: 5633797701788165368
+    second: Parry Sparks_13
+  - first:
+      213: 5926651790705154355
+    second: Parry Sparks_14
+  - first:
+      213: -3916954409232821186
+    second: Parry Sparks_15
+  - first:
+      213: -8862305973267288399
+    second: Parry Sparks_16
+  - first:
+      213: -1464693789472293016
+    second: Parry Sparks_17
+  - first:
+      213: 1939432048356626819
+    second: Parry Sparks_18
+  - first:
+      213: 1804411558345595304
+    second: Parry Sparks_19
+  - first:
+      213: -7762394261799136768
+    second: Parry Sparks_20
+  - first:
+      213: 2112013397208190283
+    second: Parry Sparks_21
+  - first:
+      213: 4961777852133341468
+    second: Parry Sparks_22
+  - first:
+      213: 2815202035164263978
+    second: Parry Sparks_23
+  - first:
+      213: 8135283072922915979
+    second: Parry Sparks_24
+  - first:
+      213: 8175317826112458329
+    second: Parry Sparks_25
+  - first:
+      213: 3898886167214088291
+    second: Parry Sparks_26
+  - first:
+      213: -2598977414500552318
+    second: Parry Sparks_27
+  - first:
+      213: -3655514521576380364
+    second: Parry Sparks_28
+  - first:
+      213: -7593805054963397996
+    second: Parry Sparks_29
+  - first:
+      213: -3588749010452120529
+    second: Parry Sparks_30
+  - first:
+      213: -5051683309619098058
+    second: Parry Sparks_31
+  - first:
+      213: 1374475410105071517
+    second: Parry Sparks_32
+  - first:
+      213: 3552555299415625324
+    second: Parry Sparks_33
+  - first:
+      213: 2843533522512430820
+    second: Parry Sparks_34
+  - first:
+      213: -8221927490596788252
+    second: Parry Sparks_35
+  - first:
+      213: 1555196246981250415
+    second: Parry Sparks_36
+  - first:
+      213: 233644352032751901
+    second: Parry Sparks_37
+  - first:
+      213: 6822589864206730329
+    second: Parry Sparks_38
+  - first:
+      213: 6039197522960608943
+    second: Parry Sparks_39
+  - first:
+      213: -1871995310458525985
+    second: Parry Sparks_40
+  - first:
+      213: -421942637887399268
+    second: Parry Sparks_41
+  - first:
+      213: 2610762191486457605
+    second: Parry Sparks_42
+  - first:
+      213: 688746120248584969
+    second: Parry Sparks_43
+  - first:
+      213: -3569880472109018386
+    second: Parry Sparks_44
+  - first:
+      213: -4258749712647486027
+    second: Parry Sparks_45
+  - first:
+      213: 2498217572168120526
+    second: Parry Sparks_46
+  - first:
+      213: 7316836603934796492
+    second: Parry Sparks_47
+  - first:
+      213: -3819410668559375891
+    second: Parry Sparks_48
+  - first:
+      213: -2911779867300732665
+    second: Parry Sparks_49
+  - first:
+      213: -8068301081202800455
+    second: Parry Sparks_50
+  - first:
+      213: 9218980030982299302
+    second: Parry Sparks_51
+  - first:
+      213: -5275535407670168256
+    second: Parry Sparks_52
+  - first:
+      213: 5939337756768782388
+    second: Parry Sparks_53
+  - first:
+      213: 1423645101316971178
+    second: Parry Sparks_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Parry Sparks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb7b9837dd55dcc0800000000000000
+      internalID: -3686937540983817227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parry Sparks_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785e7a48cf1809f70800000000000000
+      internalID: 9191989761020519815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parry Sparks_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6263c55d66c45d760800000000000000
+      internalID: 7481970360495912486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parry Sparks_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f169380b8c23e0440800000000000000
+      internalID: 4903912881789310495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parry Sparks_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0495027b0254698e0800000000000000
+      internalID: -1687085003590051520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parry Sparks_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a76ce9a1a34c1d20800000000000000
+      internalID: 3250547392674293667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parry Sparks_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d426256b46aeaeee0800000000000000
+      internalID: -1230913829855927731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ee7e57a2a8f37574fad8a731c0264c55
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Parry Sparks_0: -3686937540983817227
+      Parry Sparks_1: 9191989761020519815
+      Parry Sparks_2: 7481970360495912486
+      Parry Sparks_3: 4903912881789310495
+      Parry Sparks_4: -1687085003590051520
+      Parry Sparks_5: 3250547392674293667
+      Parry Sparks_6: -1230913829855927731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

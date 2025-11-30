@@ -1782,6 +1782,37 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &417202512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417202513}
+  m_Layer: 3
+  m_Name: parryEffectPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417202513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417202512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1424570067}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &814171789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2570,6 +2601,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1345287120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8047342755339278662, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
+  m_PrefabInstance: {fileID: 6587690478181350036}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1424570067 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6440611075868980033, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
@@ -3077,6 +3113,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swordguy
       objectReference: {fileID: 0}
+    - target: {fileID: 3216100669869116807, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 1345287120}
+    - target: {fileID: 3216100669869116807, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
+      propertyPath: parryEffectPoint
+      value: 
+      objectReference: {fileID: 417202513}
+    - target: {fileID: 3216100669869116807, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
+      propertyPath: parrySparksPrefab
+      value: 
+      objectReference: {fileID: 3308771363430805211, guid: 6f9baebbaa3fe064bbcdfd391287e6e8, type: 3}
     - target: {fileID: 9090759299532682336, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.94
@@ -3119,7 +3167,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6440611075868980033, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 417202513}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
 --- !u!1001 &9047180282808601532
