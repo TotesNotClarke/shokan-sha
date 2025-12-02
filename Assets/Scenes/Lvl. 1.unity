@@ -4546,9 +4546,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
-<<<<<<< HEAD
---- !u!1 &525121302
-=======
 --- !u!1 &417202512
 >>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
 GameObject:
@@ -4558,13 +4555,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 525121303}
-  - component: {fileID: 525121305}
-  - component: {fileID: 525121304}
-  m_Layer: 0
-  m_Name: Death
-=======
   - component: {fileID: 417202513}
   m_Layer: 3
   m_Name: parryEffectPoint
@@ -4574,9 +4564,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &525121303
-=======
 --- !u!4 &417202513
 >>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
 Transform:
@@ -4584,7 +4571,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 525121302}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -7233,7 +7219,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<< HEAD
 --- !u!1001 &1105211379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7752,16 +7737,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swordguy
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 6440611075868980033, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -87.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6440611075868980033, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.24
-      objectReference: {fileID: 0}
-=======
     - target: {fileID: 3216100669869116807, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
       propertyPath: attackPoint
       value: 
