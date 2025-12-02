@@ -4547,7 +4547,7 @@ TilemapCollider2D:
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
 --- !u!1 &417202512
->>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
+171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4558,14 +4558,14 @@ GameObject:
   - component: {fileID: 417202513}
   m_Layer: 3
   m_Name: parryEffectPoint
->>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
+171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &417202513
->>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
+171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6314,7 +6314,7 @@ Tilemap:
   m_Children: []
   m_Father: {fileID: 1424570067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
+171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
 --- !u!1 &814171789
 GameObject:
   m_ObjectHideFlags: 0
@@ -7339,7 +7339,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8047342755339278662, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
   m_PrefabInstance: {fileID: 6587690478181350036}
   m_PrefabAsset: {fileID: 0}
->>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
+171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
 --- !u!4 &1424570067 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6440611075868980033, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
@@ -7749,7 +7749,7 @@ PrefabInstance:
       propertyPath: parrySparksPrefab
       value: 
       objectReference: {fileID: 3308771363430805211, guid: 6f9baebbaa3fe064bbcdfd391287e6e8, type: 3}
->>>>>>> 171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
+171afbcbf8becea8f4d2d229b8f5e4ff774e1ead
     - target: {fileID: 9090759299532682336, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.94
