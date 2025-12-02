@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-
+    public void EndAttack() => isAttacking = false;
     public void SpawnParrySparks()
     {
         if (parrySparksPrefab != null && parryEffectPoint != null)
@@ -47,6 +47,10 @@ public class PlayerController : MonoBehaviour
         {
             isAttacking = true;
             myAnim.SetTrigger("doAttack"); // <-- Make sure your attack animation uses this
+            if (!SideScrollPlayer.instance.isGrounded)
+                myAnim.SetTrigger("AirAttack");
+            else
+                myAnim.SetTrigger("Combo1");
         }
     }
 

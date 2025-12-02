@@ -1,7 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SideScrollPlayer : MonoBehaviour
 {
+    public static SideScrollPlayer instance;
     public float moveSpeed = 10.0f;
     public float jumpForce = 500.0f;
 
@@ -16,7 +17,10 @@ public class SideScrollPlayer : MonoBehaviour
     // ? Dash (only needed variables)
     public bool shouldDash = false;
     public float dashForce = 20f;
-
+    void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
