@@ -80,28 +80,28 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: 
+    functionName: DamagePlayer
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.04347826
-    functionName: 
+    functionName: DamagePlayer
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.08695652
-    functionName: 
+    functionName: DamagePlayer
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.13043478
-    functionName: 
+    functionName: DamagePlayer
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
