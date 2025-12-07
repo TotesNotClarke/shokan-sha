@@ -15,7 +15,20 @@ public class TransitionOneBehaviour : StateMachineBehaviour
     {
         if (PlayerController.instance.isAttacking)
         {
+
             PlayerController.instance.myAnim.Play("SGCombo2");
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D enemy)
+    {
+        if (PlayerController.instance.isAttacking)
+        {
+            Health hp = enemy.GetComponent<Health>();
+            if (hp != null)
+            {
+                hp.TakeDamage(1);
+            }
         }
     }
 

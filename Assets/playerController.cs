@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
             if (!SideScrollPlayer.instance.isGrounded)
                 myAnim.SetTrigger("AirAttack");
             else
-                myAnim.SetTrigger("Combo1");
+                myAnim.SetTrigger("Combo 1");
         }
     }
 

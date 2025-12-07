@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class Health : MonoBehaviour
 {
@@ -6,6 +8,12 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    private IEnumerator RespawnDelay()
+    {
+        yield return new WaitForSeconds(7f); // wait for death animation
+        RespawnManager.instance.RespawnPlayer();
+    }
+
 
     private void Awake()
     {
@@ -26,9 +34,11 @@ public class Health : MonoBehaviour
             if (!dead)
             {
                 anim.SetTrigger("die");
+                StartCoroutine(RespawnDelay());
+
 
                 //Player
-                if(GetComponent<SideScrollPlayer>() != null)
+                if (GetComponent<SideScrollPlayer>() != null)
                     GetComponent<SideScrollPlayer>().enabled = false;
 
                 //Enemy
@@ -42,4 +52,32 @@ public class Health : MonoBehaviour
             }
         }
     }
+    public void Respawn(Vector3 respawnPosition)
+    {
+        // Restore health
+        currentHealth = startingHealth;
+        dead = false;
+
+        // Re-enable components disabled on death
+        if (GetComponent<SideScrollPlayer>() != null)
+            GetComponent<SideScrollPlayer>().enabled = true;
+
+        if (GetComponentInParent<EnemyPatrol>() != null)
+            GetComponentInParent<EnemyPatrol>().enabled = true;
+
+        if (GetComponent<MeleeEnemy>() != null)
+            GetComponent<MeleeEnemy>().enabled = true;
+
+        // Move player to respawn point
+        transform.position = respawnPosition;
+        anim.ResetTrigger("die");
+        anim.SetTrigger("respawn");
+
+
+        // Play revive animation (optional)
+        if (anim != null)
+            anim.Play("Idle"); // or “respawn” if you have one
+
+    }
+
 }
