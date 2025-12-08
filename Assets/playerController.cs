@@ -1,9 +1,14 @@
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
+
 {
     public Animator myAnim;
-
+    public bool isLaunching;
+    public float launchForce = 12f;
+    public LayerMask enemyLayers;
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
     public bool isAttacking = false;
     public bool isParrying = false; // Controlled by animation events
 
@@ -12,10 +17,8 @@ public class PlayerController : MonoBehaviour
     public GameObject parrySparksPrefab;
     public Transform parryEffectPoint;
 
-    public Transform attackPoint;
-    public float attackRange = 0.5f;
-    public LayerMask enemyLayers;
     public void EndAttack() => isAttacking = false;
+
     public void SpawnParrySparks()
     {
         if (parrySparksPrefab != null && parryEffectPoint != null)
@@ -107,5 +110,19 @@ public class PlayerController : MonoBehaviour
         return isParrying;
     }
 
+    void LaunchAttack()
+    {
+        if (Input.GetKey(KeyCode.E) && !isLaunching)
+        {
+            isLaunching = true;
+            myAnim.SetTrigger("AirAttack");
+        }
+        // Detect enemies in range
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<MeleeEnemy>().GetLaunched(launchForce);
+        }
+    }
 }

@@ -440,6 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc5ed5ed7d257744824079cc342bf53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isAirborne: 0
+  gravityScaleDuringLaunch: 2
   attackCooldown: 1
   range: 1
   damage: 2
@@ -42093,7 +42095,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3216100669869116807, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
       propertyPath: attackRange
-      value: 3
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216100669869116807, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
+      propertyPath: isLaunching
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6440611075868980033, guid: 433ce3b12a8ad674e909bf6ad98e8863, type: 3}
       propertyPath: m_LocalPosition.x

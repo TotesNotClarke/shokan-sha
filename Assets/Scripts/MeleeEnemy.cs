@@ -2,6 +2,10 @@
 
 public class MeleeEnemy : MonoBehaviour
 {
+    Rigidbody2D rb;
+    public bool isAirborne = false;
+    public float gravityScaleDuringLaunch = 2f;
+
     [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
@@ -20,6 +24,26 @@ public class MeleeEnemy : MonoBehaviour
     private Health playerHealth;
 
     private EnemyPatrol enemyPatrol;
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+    public void GetLaunched(float force)
+    {
+        isAirborne = true;
+
+        // Reset vertical velocity so the launch is consistent
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+
+        // Apply upward force
+        rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
+
+        // Optional: increase gravity for satisfying fall
+        rb.gravityScale = gravityScaleDuringLaunch;
+
+        // Trigger launch animation
+        GetComponent<Animator>().SetTrigger("Launched");
+    }
 
     private void Awake()
     {
@@ -28,6 +52,13 @@ public class MeleeEnemy : MonoBehaviour
     }
     private void Update()
     {
+        // Detect when the enemy lands
+        if (isAirborne && rb.linearVelocity.y < 0.1f && IsGrounded())
+        {
+            isAirborne = false;
+            rb.gravityScale = 1f;
+            GetComponent<Animator>().SetTrigger("Land");
+        }
         cooldownTimer += Time.deltaTime;
 
         //Attack only when player in sight?
@@ -44,7 +75,10 @@ public class MeleeEnemy : MonoBehaviour
         if (enemyPatrol != null)
             enemyPatrol.enabled = !PlayerInSight();
     }
-
+    bool IsGrounded()
+    {
+        return Physics2D.Raycast(transform.position, Vector2.down, 1f, LayerMask.GetMask("Ground"));
+    }
 
     private bool PlayerInSight()
     {

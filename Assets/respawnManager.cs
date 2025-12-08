@@ -12,7 +12,7 @@ public class RespawnManager : MonoBehaviour
 
     public void RespawnPlayer()
     {
-        Health playerHealth = FindObjectOfType<SideScrollPlayer>().GetComponent<Health>();
+        Health playerHealth = FindFirstObjectByType<SideScrollPlayer>().GetComponent<Health>();
         playerHealth.Respawn(respawnPoint.position);
     }
 }

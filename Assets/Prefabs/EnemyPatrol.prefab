@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6660626908667253634}
   - component: {fileID: 7430747913235234673}
   - component: {fileID: 5904822967535875467}
+  - component: {fileID: 8487062707550352034}
   m_Layer: 7
   m_Name: basicEnemy
   m_TagString: Enemy
@@ -184,6 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc5ed5ed7d257744824079cc342bf53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isAirborne: 0
+  gravityScaleDuringLaunch: 2
   attackCooldown: 1.5
   range: 2
   damage: 1
@@ -192,6 +195,18 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &8487062707550352034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596659249076550062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 276740d40c2a6fe46972c980ed0b0961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2423840114281697283
 GameObject:
   m_ObjectHideFlags: 0
