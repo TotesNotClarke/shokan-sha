@@ -7,6 +7,10 @@ public class BossRun : StateMachineBehaviour
 
     public float speed = 2.5f;
     public float attackRange = 3f;
+    public float timer;
+    public float attackTimer;
+    public float minTime;
+    public float maxTime;
 
     Transform player;
     Rigidbody2D rb;
@@ -14,6 +18,10 @@ public class BossRun : StateMachineBehaviour
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+
+        timer = Random.Range(minTime, maxTime);
+        attackTimer = 3;
+
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<Boss>();
@@ -28,10 +36,24 @@ public class BossRun : StateMachineBehaviour
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
 
-        if (Vector2.Distance(player.position, rb.position) <= attackRange)
+        if (Vector2.Distance(player.position, rb.position) <= attackRange && attackTimer <= 0)
         {
             animator.SetTrigger("attack1");
         }
+        else
+        {
+            attackTimer -= Time.deltaTime;
+        }
+
+        if (timer <= 0)
+        {
+            animator.SetTrigger("Wheel");
+        }
+        else
+        {
+            timer -= Time.deltaTime;
+        }
+
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

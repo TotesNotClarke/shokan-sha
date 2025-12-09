@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 57268002}
   m_Layer: 7
   m_Name: Ninja Boss Lvl. 1 (1)_0
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8c691d2bdf0e64c823cebfb6e1587e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 1
+  startingHealth: 3
 --- !u!114 &57268000
 MonoBehaviour:
   m_ObjectHideFlags: 0
