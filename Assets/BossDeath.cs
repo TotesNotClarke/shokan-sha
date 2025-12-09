@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossDeath : StateMachineBehaviour
 {
@@ -18,6 +19,7 @@ public class BossDeath : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         Destroy(animator.gameObject);
+        SceneManager.LoadScene("EndScreen");
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

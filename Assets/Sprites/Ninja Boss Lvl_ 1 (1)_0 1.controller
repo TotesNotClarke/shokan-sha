@@ -103,10 +103,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2.5
   attackRange: 3
-  timer: 12.5
+  timer: 5
   attackTimer: 0
-  minTime: 10
-  maxTime: 15
+  minTime: 2.5
+  maxTime: 7.5
 --- !u!1101 &-4370187963124723256
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
