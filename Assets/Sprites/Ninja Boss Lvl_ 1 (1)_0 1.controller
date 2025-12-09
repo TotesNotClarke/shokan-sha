@@ -105,7 +105,7 @@ MonoBehaviour:
   attackRange: 3
   timer: 5
   attackTimer: 1
-  minTime: 0
+  minTime: 1
   maxTime: 2
 --- !u!1101 &-4370187963124723256
 AnimatorStateTransition:
