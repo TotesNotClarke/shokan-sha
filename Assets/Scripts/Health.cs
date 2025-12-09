@@ -34,12 +34,15 @@ public class Health : MonoBehaviour
             if (!dead)
             {
                 anim.SetTrigger("die");
-                StartCoroutine(RespawnDelay());
+                //StartCoroutine(RespawnDelay());
 
 
                 //Player
                 if (GetComponent<SideScrollPlayer>() != null)
+                {
                     GetComponent<SideScrollPlayer>().enabled = false;
+                    StartCoroutine(RespawnDelay());
+                }
 
                 //Enemy
                 if (GetComponentInParent<EnemyPatrol>() != null)

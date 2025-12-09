@@ -59,6 +59,7 @@ public class BossRun : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("attack1");
+        animator.ResetTrigger("Wheel");
     }
 }
 
