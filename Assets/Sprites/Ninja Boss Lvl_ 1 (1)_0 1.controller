@@ -104,9 +104,9 @@ MonoBehaviour:
   speed: 2.5
   attackRange: 3
   timer: 5
-  attackTimer: 0
-  minTime: 2.5
-  maxTime: 7.5
+  attackTimer: 1
+  minTime: 0
+  maxTime: 2
 --- !u!1101 &-4370187963124723256
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
