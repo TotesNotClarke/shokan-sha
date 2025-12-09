@@ -36138,6 +36138,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 149512848196681603, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882116668314846166, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.75
+      objectReference: {fileID: 0}
     - target: {fileID: 3798405141601145493, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
       propertyPath: m_Name
       value: EnemyPatrol (5)
@@ -36704,6 +36712,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 149512848196681603, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882116668314846166, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.04
+      objectReference: {fileID: 0}
     - target: {fileID: 3798405141601145493, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
       propertyPath: m_Name
       value: EnemyPatrol (1)
@@ -36914,6 +36930,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 149512848196681603, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 3798405141601145493, guid: ca54cea26c0dfe742ad5e0da284f5909, type: 3}
       propertyPath: m_Name
       value: EnemyPatrol
